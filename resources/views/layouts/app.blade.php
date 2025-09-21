@@ -9,7 +9,7 @@
     <title>@yield('title')</title>
 
     <meta name="description" content="@yield('meta_description', 'Default description for your site.')">
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ Vite::asset('resources/images/apprentice.png') }}">
 
     <link rel="stylesheet" href="https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.css" />
 
